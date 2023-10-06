@@ -1,0 +1,143 @@
+body {
+  font-size: 16px;
+  text-align: justify;
+  font-family: Arial, sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  background-image: url(./src/bg/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p {
+  text-align: justify;
+}
+
+h5 {
+  background-color: rgb(59, 194, 163);
+  border-top-right-radius: 10px;
+  padding: 5px;
+  padding: 10px 15px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+}
+
+a {
+  text-align: justify;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+i {
+  text-align: justify;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+.bio h5 {
+  font-weight: bold;
+  font-size: 16px;
+}
+.container.mt-4,
+.text-center h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pendidikan,
+.sertifikasi,
+.kontak {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+/*hp*/
+@media screen and (max-width: 768px) {
+  body {
+    text-align: justify;
+  }
+  p {
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  li {
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+
+  .col-md-3 img {
+    width: 150px;
+    height: auto;
+    margin-left: 30%;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 30%;
+    margin-bottom: 20px;
+    margin-top: 1%;
+  }
+  .bio h5 {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .col-md-9 h5 {
+    font-size: 1rem;
+    margin-top: auto;
+  }
+  .pendidikan,
+  .sertifikasi,
+  .kontak {
+    margin-top: 9px;
+    margin-left: 1px;
+  }
+  a {
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+  }
+
+  i {
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+  }
+}
+
+/*ukuran tablet ke atas nya*/
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+    text-align: justify;
+    background-image: url(./src/bg/bg3.jpg);
+    background-size: cover;
+  }
+
+  .col-md-3 img {
+    width: 170px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    border: 2px solid black;
+    border-radius: 30%;
+  }
+
+  .col-md-9 h5 {
+    font-size: 1rem;
+    margin-top: auto;
+  }
+}
